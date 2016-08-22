@@ -1,9 +1,9 @@
 <!doctype html>
-<html data-ng-app>
+<html>
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/app.css">
-        <script src ="jspm_packages\github\angular\bower-angular@1.5.8\angular.js"></script>
+        
     </head>
 </html>
 <body data-ng-controller="index">
@@ -13,7 +13,15 @@
         </h1>
     </div>
     <script src="jspm_packages/system.js"></script>
+    <script src ="jspm_packages\github\angular\bower-angular@1.5.8\angular.js"></script>
     <script>    
-        System.import('js/module.js')
+        System.import('js/module.js').then(function(){
+            angular.element(document).ready(function(){
+                angular.bootstrap(document, ["portal"]);
+            });
+        });
+
+        
     </script>
+    <script src ="jspm_packages\github\angular\bower-angular@1.5.8\angular.js"></script>
 </body>
