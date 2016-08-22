@@ -1,0 +1,24 @@
+
+{
+    
+    "newsItems":[
+            {
+                "subject": "new release",
+                "date": "2016-03-03",
+                "body": "it's finally here!",
+                "recipients": "all@appveyor.com"
+            },
+            {
+                "subject": "free download",
+                "date": "2016-04-04",
+                "body": "it's finally free!",
+                "recipients": "company-news@appveyor.com"
+            },
+            {
+                "subject": "bug fix",
+                "date": "2016-05-05",
+                "body": "it's finally fixed!",
+                "recipients": "tech-news@appveyor.com"
+            }
+        ]
+}
